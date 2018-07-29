@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My potfolio</title>
+<style media="screen">
+ body{
+   background-color: black;
+
+ }
+
+.containter{border: 1px none powderblue;
+      width: 79%;
+      height: 500px;
+      margin-left: 80px;
+
+
+
+}
+ .heading{
+   font-family: sans-serif;
+   font-weight:100;
+   font-size: 24px;
+   color: white;
+   font-style: normal;
+   margin-top: 250px;
+   text-decoration: underline;
+
+ }
+ .name, .love {
+   font-size: 24px;
+   font-weight: 100;
+   color :white;
+   font-style: normal;
+   line-height: 34px;
+ }
+ span{
+   color: #CE9374;
+ }
+ .smallcontainter{
+   border: 1px none yellow;
+    width: 100%;
+    height: 200px;
+ }
+ .img1 ,.img2,.img3,.img4,.img5,.img6{
+   border: 1px none red;
+   border-radius: 12px;
+   width: 50px;
+   height:70px;
+   position: relative;
+   float: left;
+   margin: 3px;
+   color: white;
+
+ }
+ a{
+   color: #CE9374;
+   text-decoration:none;
+   onclick
+ }
+ a:active{
+   text-decoration:underline;
+
+ }
+ .twitter, .blog,.github,.googleplay,.itch,.email{
+   color:#ce9374;
+   font-size: 18px;
+   line-height: 26px;
+
+
+ }
+ .img6{
+   position: relative;
+   margin-left: 40px;
+
+ }
+
+
+
+</style>
+</head
+
+<body>
+<div class="containter">
+    <div class="heading"> Hi </div>
+    <p class="name"> My name is Kolapo Oni. I am a Game Designer & Writer with android mobile app development experience. I am currently making a game called <span><a href="https://www.youtube.com/playlist?list=PLXGG7cjrC_pQyci80C1p6He1KRH0XLG7o">Fading.</a></span>
+</p>
+<p class="love">I love <span><a href="https://soundcloud.com/kolapo-oni/sets/good-vibes">music</a></span>, art & <span><a href="https://vsco.co/thekolapo/images/1">photography</a></span>. I live in Lagos, Nigeria.</P>
+
+
+
+
+
+
+
+
+  <div class="smallcontainter">
+<div class="img1"><p class="email"> <a href="https://soundcloud.com/kolapo-oni/sets/good-vibes">email</a></P></div>
+<div class="img2"><p class="twitter"><a href="https://www.twitter.com/kolapo_">twitter</a></P></div>
+<div class="img3"><p class="blog"><a href="http://www.thekolapo.wordpress.com/">blog</a></P></div>
+<div class="img4"><p class="github"><a href="https://github.com/thekolapo">github</a></P></div>
+<div class="img5"><p class="googleplay"><a href="https://play.google.com/store/apps/details?id=com.KolapoOni.LeftOrRight">googleplay</a></P></div>
+<div class="img6"><p class="itch"><a href="https://kolapo.itch.io/">itch</a></P></div>
+</div>
+
+</div>
+
+</body>
+</html>
